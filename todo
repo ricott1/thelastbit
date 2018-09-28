@@ -1,0 +1,44 @@
+access to race and job screens, access monster status
+file generates monsters, treasures etc procedurally (at the beginning or entering the room?) w funny names, mixing filenames and creatures. health is size
+
+hide recoil, just use breath:
+f13 style: breath goes like few unities (say 3 to 6). moves use different amount of breath and take some time to happen (DEX makes it faster), during which breath doesnt go down (like anaerobic). re-breath at 0. breath goes up and down faster w higher hb. therefore high hb is good for warriors. but magic doesnt stop breath, so low hb better for mage (all magic consumes all breath and does dmg/effect depending on how much it lasts).
+
+
+
+statuses: schoked (gets more dmg), muted (no magic), dreaming (does nothing), rythm (does more dmg, more combo etc)
+
+remove save games!
+remove HB. rythm becomes related to combo, it increases w combo indicator
+remove AC, only dex to dodge, armour reduces dmg
+add final mission to slain all monster in dungeon with indicator 
+
+
+Name HP bytes? color print_actions, show last received damage as diffenret color in bar. to do this, add vector of last events, with dictionary data and timestamp. on every cycle remove the old ones.
+
+change names:
+STR CPU
+MAG GPU (use it to load lasting programs that effects urself, such as antivirus (gives immunity), other shit for evasion etc. these programs permanently occupy ram)
+RES
+DEX I/O speed? (more cores, quicker empty ram etc.)
+HP MEMORY (display in kilobytes, megabytes etc)
+BTH RAM
+ABILITIES SOFTWARE
+INVENTORY HARDWARE
+SHOCK TEMPERATURE (acts as received damage multiplier)
+RYTHM COMBO ()
+DREAM SUSPEND
+MUTED 
+
+fix mods for chars
+
+prepare routines, like scripts. create pseudolanguage or read from file? or find prepared routine that can be modified
+build personal combo
+
+rewrite print actions as dictionary, which contains data. used brtth can then be displayed in different color going down as time passes
+
+pickup has to be ability: 3 kinds, software to attack w cpu, gpu programs for me, passive shit like pickup
+
+call it the last bit
+
+to kill u have to destroy the secret last bit, randomly places in memory. so, large files, many hp (bites) more difficult to randomly destroy last bit. possibility of removing functionalities as memory is desotryed
